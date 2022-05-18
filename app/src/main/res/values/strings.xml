@@ -1,12 +1,13 @@
 <resources>
-    <string name="app_name">netsec_insec_memo</string>
+    <string name="app_name">Ck.min_insec_memo</string>
     <string name="title_activity_register">RegisterActivity</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
+    <!--    <string name="prompt_email">Email</string>-->
+    <string name="prompt_password">Enter Password</string>
     <string name="action_sign_in">Register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="password_invalid_length">Minimum 8 Character Password</string>
+    <string name="password_invalid_upper">Must Contain 1 Upper-case Character</string>
+    <string name="password_invalid_lower">Must Contain 1 Lower-case Character</string>
+    <string name="password_invalid_special">Must Contain 1 Special Character</string>
+    <string name="loginButtonText">Login</string>
 </resources>

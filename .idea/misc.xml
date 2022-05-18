@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2745" />
+        <entry key="app/src/main/res/drawable/feather_pointed_solid.xml" value="0.2605" />
+        <entry key="app/src/main/res/drawable/ic_launcher.xml" value="0.2605" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2745" />
         <entry key="app/src/main/res/layout-w1240dp/activity_register.xml" value="0.21552878179384202" />
         <entry key="app/src/main/res/layout-w936dp/activity_register.xml" value="0.2515625" />
+        <entry key="app/src/main/res/layout/activity_edit_activiry.xml" value="0.30570652173913043" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.30570652173913043" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.33541666666666664" />
       </map>
     </option>
