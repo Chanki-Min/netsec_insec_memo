@@ -10,4 +10,6 @@
     <string name="password_invalid_lower">Must Contain 1 Lower-case Character</string>
     <string name="password_invalid_special">Must Contain 1 Special Character</string>
     <string name="loginButtonText">Login</string>
+    <string name="registerDesc">register password and start memo!</string>
+    <string name="loginDesc">enter registered password to start memo!</string>
 </resources>

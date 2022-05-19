@@ -1,6 +1,7 @@
 package kr.ac.hongic.ce.b611065.ck_min.netsec_insec_memo.edit
 
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -9,6 +10,7 @@ import androidx.security.crypto.EncryptedFile
 import androidx.security.crypto.MasterKeys
 import kr.ac.hongic.ce.b611065.ck_min.netsec_insec_memo.R
 import kr.ac.hongic.ce.b611065.ck_min.netsec_insec_memo.databinding.ActivityEditActiviryBinding
+import kr.ac.hongic.ce.b611065.ck_min.netsec_insec_memo.register.RegisterActivity
 import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.IOException
@@ -40,6 +42,12 @@ class EditActivity : AppCompatActivity() {
 
             }
         })
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        val intent = Intent(this, RegisterActivity::class.java);
+        startActivity(intent)
     }
 
     private fun writeMemoToFile(memo: String) {

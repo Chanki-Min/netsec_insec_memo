@@ -33,7 +33,20 @@ class RegisterActivity : AppCompatActivity() {
             EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM
         )
         val registerButton = binding.register
-        if(isPasswordExists()) registerButton.text = getString(R.string.loginButtonText)
+        val title = binding.registerTitle
+        val desc = binding.registerDesc
+        if (isPasswordExists()) {
+            registerButton.text = getString(R.string.loginButtonText)
+            title.text = getString(R.string.loginButtonText)
+            desc.text = getString(R.string.loginDesc)
+            title.text = getString(R.string.action_sign_in)
+            desc.text = getString(R.string.registerDesc)
+        } else {
+            title.text = getString(R.string.action_sign_in)
+            desc.text = getString(R.string.registerDesc)
+        }
+
+
 
 
         passwordFocusListener()
